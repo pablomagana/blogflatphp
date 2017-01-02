@@ -3,7 +3,7 @@
 
 function openBD()
 {
-  $enlace= new PDO("mysql:host=localhost;dbname=blog","root");
+  $enlace= new PDO("mysql:host=localhost;dbname=blog","root","vagrant");
   return $enlace;
 }
 
