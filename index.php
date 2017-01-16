@@ -1,6 +1,6 @@
 <?php
 echo "<h1>Bienvenido al blog !</h1>";
-echo "User: develop pablo";
+echo "User: develop pablo. cerrar sesion";
 if(isset($_GET['id'])){
   //lista.php modificada
   include ('controller/detalle.php');
