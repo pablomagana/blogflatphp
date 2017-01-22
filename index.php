@@ -1,7 +1,7 @@
 <?php
 echo "<h1>Bienvenido al blog !</h1>";
 echo "User: develop pablo. cerrar sesion";
-echo "zona admin....";
+echo "zona admin.....";
 if(isset($_GET['id'])){
   //lista.php modificada
   include ('controller/detalle.php');
