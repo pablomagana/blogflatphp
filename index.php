@@ -3,7 +3,6 @@ echo "<h1>Bienvenido al blog !</h1>";
 echo "User: develop pablo.. cerrar sesion.";
 echo "<br/>";
 echo "zona admin super";
-echo "NEW";
 if(isset($_GET['id'])){
   //lista.php modificada
   include ('controller/detalle.php');
